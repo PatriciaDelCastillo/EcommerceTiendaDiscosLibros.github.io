@@ -1,8 +1,13 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
 
-*{
- font-family: Arial, Helvetica, sans-serif;
- font-style: initial;
 }
+
+.navbar {
+  background-color: #e7bc83;
+
+}
+
 .btn {
   color: #ffffff;
   background-color: #A35E03;
@@ -29,16 +34,18 @@
 
 .card {
   border: 1px solid #dddddd;
-  background-color: #ffffff;
+  background-color: #fdeac8;
   padding: 15px;
   margin-bottom: 30px;
 
 }
+
 .card-boton {
- 
- margin: 0 25px;
- 
+
+  margin: 0 25px;
+
 }
+
 .card-img-top {
   width: 75%;
   margin: 0 auto;
@@ -60,31 +67,36 @@
   box-shadow: 0px 0px 10px #0c0c0c3b;
 }
 
-section form{
+section form {
   border: 1px solid;
-  
-padding:  25px;
+
+  padding: 25px;
 }
+
 .footer {
   background-color: black;
-  padding: 20px;
- 
- 
-}
-.footer ul {
+  padding: 10px;
 
-  display:flex;
-  margin: 0 250px;
-  
-  align-content: center;
-   list-style-type: none;
 }
-.footer ul li{
-width: 50%;
+
+.footer h3 {
+  font-size: 15px;
+  color: #ffffff;
+  padding-left: 85px;
+
+
+
 }
+
+.footer ul {
+  display: flex;
+  list-style-type: none;
+
+}
+
 .footer a {
   color: #ffffff;
- font-size: 20px;
 
- 
+  padding: 5px 25px;
+
 }
