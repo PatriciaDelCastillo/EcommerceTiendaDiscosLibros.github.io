@@ -76,6 +76,7 @@ section form {
 .footer {
   background-color: black;
   padding: 10px;
+  text-align: center;
 
 }
 
@@ -83,20 +84,16 @@ section form {
   font-size: 15px;
   color: #ffffff;
   padding-left: 85px;
-
-
-
 }
-
 .footer ul {
   display: flex;
-  list-style-type: none;
+  list-style-type: none; 
+  margin-left: 425px;
 
 }
 
 .footer a {
   color: #ffffff;
-
   padding: 5px 25px;
 
 }
